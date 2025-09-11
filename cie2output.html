@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<h1>Spandana Aithal-4MW23CS163</h1>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Time Table</title>
+
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      border: 5px double black; /* Outer border */
+    }
+
+    th, td {
+      border: 3px double black; /* Inner cell border */
+      padding: 10px;
+    }
+
+    .lab {
+      /* Style for lab cells if needed */
+    }
+
+    .sub1 { color: blue; }
+    .sub2 { color: orange; }
+    .sub3 { color: purple; }
+    .sub4 { color: green; }
+    .sub5 { color: red; }
+    .special-bold { color: black; font-weight: bold; }
+    .library { color: black; font-weight: normal; }
+
+    tfoot {
+      background-color: #efd8dc;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1><center>COLLEGE TIME TABLE</center></h1>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2"></th>
+      </tr>
+      <tr>
+        <th>8.30-9.30</th>
+        <th>9.30-10.30</th>
+        <th>10.30-11.30</th>
+        <th>11.30-12.30</th>
+        <th>12.30-2.00</th>
+        <th>2.00-3.00</th>
+        <th>3.00-4.00</th>
+        <th>4.00-5.00</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>---</td>
+        <td><span class="sub1">SUB1</span></td>
+        <td><span class="sub2">SUB2</span></td>
+        <td><span class="sub3">SUB3</span></td>
+        <td class="LUNCH" rowspan="6">LUNCH</td>
+        <td><span class="sub4">SUB4</span></td>
+        <td><span class="sub5">SUB5</span></td>
+        <td><span class="special-bold">COUNSELLING CLASS</span></td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td><span class="sub1">SUB1</span></td>
+        <td><span class="sub2">SUB2</span></td>
+        <td><span class="sub3">SUB3</span></td>
+        <td>---</td>
+        <td><span class="sub2">SUB2</span></td>
+        <td><span class="sub2">SUB2</span></td>
+        <td><span class="library">LIBRARY</span></td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td><span class="sub1">SUB1</span></td>
+        <td><span class="sub2">SUB2</span></td>
+        <td>SWA</td>
+        <td>---</td>
+        <td class="lab" colspan="3"><span class="special-bold">LAB</span></td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td><span class="sub1">SUB1</span></td>
+        <td><span class="sub2">SUB2</span></td>
+        <td><span class="sub3">SUB3</span></td>
+        <td>---</td>
+        <td><span class="sub2">SUB2</span></td>
+        <td><span class="sub2">SUB2</span></td>
+        <td><span class="library">LIBRARY</span></td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td><span class="sub1">SUB1</span></td>
+        <td><span class="sub2">SUB2</span></td>
+        <td><span class="sub3">SUB3</span></td>
+        <td>---</td>
+        <td><span class="sub4">SUB4</span></td>
+        <td><span class="sub5">SUB5</span></td>
+        <td><span class="library">LIBRARY</span></td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td><span class="sub1">SUB1</span></td>
+        <td class="lab" colspan="3"><span class="special-bold">SEMINAR</span></td>
+        <td><span class="sub4">SUB4</span></td>
+        <td><span class="sub5">SUB5</span></td>
+        <td><span class="library">LIBRARY</span></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <!-- Optional footer -->
+    </tfoot>
+  </table>
+</body>
+</html>
