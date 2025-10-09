@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Student Information form</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+background-color:blue;
+margin:20 px;
+}
+h1{
+text-align:center;
+color:#333;
+font-size:32 px;
+margin-bottom:20 px;
+}
+table{
+width:60%;
+margin:0 auto;
+background-color:yellow;
+border-collapse:collapse;
+box-shadow:00 10 px rgba(0,0,0,0.1);
+}
+td{
+padding:15 px;
+font-size:18 px;
+color:#655;
+}
+th{
+text-align:left;
+padding:15 px;
+background-color:red;
+color:white;
+font-size:20 px;
+}
+input[type="text"],input[type="email"],input[type="password"],select,textarea{
+width:100%;
+padding:10 px;
+font-size:16 px;
+border:1 px solid #ccc;
+border-radius:4 px;
+}
+inout[type="submit"],input[type="reset"]{
+background-color:#4CAF50;
+color:white;
+padding:10 px 20 px;
+border:none;
+boreder-radius:4 px;
+cursor:pointer;
+font-size:18 px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+background-color:#45a049;
+}
+textarea{
+resize:vertical;
+height:100 px;
+}
+.radio,.checkbox{
+width:auto;
+}
+</style>
+</head>
+<body>
+<h1>Student form</h1>
+<form action="#" method="post">
+<table>
+<tr>
+<th colspan="2">Personal information</th>
+</tr>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" placeholder="Enter your  name"></td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="email" name="email" placeholder="Enter your email"></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password" placeholder="Enter your password"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="gender" value="male" class="radio">Male
+<input type="radio" name="gender" value="female" class="radio">Female
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>Hobbies:</td>
+<td>
+<input type="checkbox"name="hobbies"value="reading" class="checkbox">Reading
+<input type="checkbox"name="hobbies"value="travelling" class="checkbox">Travelling
+<input type="checkbox"name="hobbies"value="singing" class="checkbox">Singing
+<input type="checkbox"name="hobbies"value="sports" class="checkbox">Sports
+<input type="checkbox"name="hobbies"value="dancing" class="checkbox">Dancing
+</td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><textarea name="address"placeholder="Enter your address"></textarea></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center;">
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
